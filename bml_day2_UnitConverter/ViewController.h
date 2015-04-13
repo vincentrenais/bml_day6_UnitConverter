@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *tempText;
+
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+
+- (IBAction)convertTemp:(UIButton *)sender;
+
+- (IBAction)textFieldReturn:(id)sender;
+
+
 
 @end
 
