@@ -163,6 +163,7 @@
 		B7915D061ADC52DE00E999B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = UnitConverter;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Vincent Renais";
 				TargetAttributes = {
