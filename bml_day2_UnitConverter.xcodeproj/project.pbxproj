@@ -417,6 +417,7 @@
 				B7915D331ADC52DE00E999B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7915D341ADC52DE00E999B1 /* Build configuration list for PBXNativeTarget "bml_day2_UnitConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				B7915D361ADC52DE00E999B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
