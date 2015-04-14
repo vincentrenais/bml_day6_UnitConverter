@@ -40,6 +40,7 @@
 //        [self.tempText resignFirstResponder];
 //    }
 //    [super touchesBegan:touches withEvent:event];
+
 }
 
 - (IBAction)convertTemp:(UIButton *)sender {
