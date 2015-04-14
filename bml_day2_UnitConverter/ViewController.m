@@ -30,11 +30,16 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
-    UITouch *touch = [[event allTouches] anyObject];
-    if ([self.tempText isFirstResponder] && [touch view] != self.tempText) {
-        [self.tempText resignFirstResponder];
-    }
-    [super touchesBegan:touches withEvent:event];
+// Better solution.
+    
+    [self.view endEditing:YES];
+    
+//    UITouch *touch = [[event allTouches] anyObject];
+//    if ([self.tempText isFirstResponder] && [touch view] != self.tempText) {
+//        [self.tempText resignFirstResponder];
+//    }
+//    [super touchesBegan:touches withEvent:event];
+
 }
 
 - (IBAction)convertTemp:(UIButton *)sender {
